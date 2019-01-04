@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		   <title>糖果空投</title>
+		   
+	</head>
+	<body>	
+		<div class="create">
+				
+						<div class="top-bar-left">
+							<ul>
+								<li><a href="index.html" target="_blank">首页</a></li>
+								<li><a href="create.html" target="_blank">创建代币</a></li>
+								<li><a href="candy.html" target="_blank">糖果空投</a></li>
+							</ul>
+						</div>
+						
+			<div class="create-main">
+				<div class="title">
+					<span>
+						糖果空投
+					</span>
+				</div>
+				<form class="create-form">
+				<div>
+					<laber>
+						<h4>代币地址</h4>
+					</laber>
+					<input  type="text"  name="dbaddress" id="dbaddress" value="" placeholder="请输入token地址"/>
+					<input type="button" name="sub3" id="sub3"  value="查询" />
+				</div>
+				<div>
+						<laber>
+							<h4>代币名称</h4>
+						</laber>
+						<input type="text" name="dbname" id="dbname" value="" readonly="readonly"/>
+				</div>
+				<div>
+						<laber>
+							<h4>代币发行总量</h4>
+						</laber>
+						<input type="text" name="dbtotal" id="dbtotal" value="" readonly="readonly"/>
+				</div>
+				<div>
+					<laber>
+						<h4>代币精度</h4>
+					</laber>
+					<input type="text" name="dbdecimals" id="dbdecimals" value="" readonly="readonly"/>
+			    </div>
+				<div>
+						<laber>
+							<h4>代币持有数量</h4>
+						</laber>
+						<input type="text" name="dbownnum" id="dbownnum" value="" readonly="readonly"/>
+				</div>
+				<div>
+						<laber>
+							<h4>已授权代币数量</h4>
+						</laber>
+						<input type="text" name="yauthdbnum" id="yauthdbnum" value="" readonly="readonly"/>
+				</div>
+
+				<div>
+					<laber>
+						<h4>代币授权数量</h4>
+					</laber>
+					<input  type="text"  name="dbauthnum" id="dbauthnum" value="" placeholder="授权数量"/>
+					<input type="button" name="sub" id="sub" value="授权" />
+				</div>
+				<div>
+				<laber>
+					<h4>空投数量</h4>
+				</laber>
+				<input  type="text"  name="pinjun" id="pinjun" value="" placeholder="每个地址空投数量"/>
+				</div>
+				<div>
+						<input type="file" id="sub4" />
+						<textarea rows="10" cols="50" id="dizhi">
+					    </textarea>
+				</div>
+				<div>
+					<input type="button" name="sub2" id="sub2" value="一键空投" />
+				</div>
+				</form>
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script>
+        <script src="js/web3.min.js"></script>
+        <script src="js/truffle-contract.js"></script> -->
+		<script src="js/bundle.js"></script>
+		<script src="http://oss.sheetjs.com/js-xlsx/xlsx.full.min.js"></script>
+	</body>
+</html>
